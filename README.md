@@ -4,7 +4,7 @@ Repositório dedicado ao aprendizado de front-end, focando na criação de inter
 
 ---
 
-## 🔐 Projeto em Destaque: Clone da Tela de Login da Netflix (Primeiro Projeto Web! )
+## 🔐 Projeto em Destaque: Clone da Tela de Login da Netflix 
 
 - Primeiro projeto prático desenvolvido na transição para o front-end
 - Estruturação semântica básica com formulários, inputs e botões
