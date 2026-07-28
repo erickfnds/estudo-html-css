@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+ 
+  
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(netflixbackground.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+
+.Logo {
+  width: 150px;
+  margin-top: 25px;
+  margin-left: 45px;
+}
+
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* card escuro do Login */
+.loginn {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.842);
+  padding: 40px 60px;
+  width: 100%;
+  max-width: 450px;
+  min-height: 550px;
+  border-radius: 8px;
+  margin: 0;
+  gap: 25px; 
+}
+
+.entrar {
+  color: white;
+}
+
+/* Campo de Email e Senha */
+.meio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.emailtelefone,
+.senha {
+  background-color: rgba(128, 128, 128, 0.384);
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  color: white;
+  font-size: 14px;
+}
+
+
+.button {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #c11119;
+}
+
+/* Linha do Checkbox + Precisa de ajuda? */
+.opcoes-extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.lembrar-me {
+  color: #b3b3b3;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.box {
+  accent-color: grey;
+  cursor: pointer;
+}
+
+.link-ajuda {
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.link-ajuda:hover {
+  text-decoration: underline;
+}
+
+
+.assinar {
+  color: #737373;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.link-assinar {
+  color: white;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.link-assinar:hover {
+  text-decoration: underline;
+}
+
+
+a {
+  text-decoration: none;
+}
