@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://googleapis.com');
+
+body {
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+
+    background: conic-gradient(#1DB954, grey, black, #1DB954);
+
+
+
+
+
+
+}
+
+img {
+    display: block;
+}
+
+.logo {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+}
+
+.continuar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 400px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 40px 40px 40px;
+
+
+}
+
+
+.continuar h1 {
+    align-self: center;
+    margin-top: 40px;
+}
+
+
+.btng {
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+}
+
+.btnf {
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+}
+
+.btnap {
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 50px;
+    width: 100%;
+
+}
+
+.usuario {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 40px;
+    background-color: #80808027;
+}
+
+.senhal {
+    padding-top: 10px;
+}
+
+.senha {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 40px;
+    background-color: #80808027;
+
+}
+
+.box {
+    margin-top: 20px;
+
+}
+
+input[type='checkbox'] {
+    accent-color: #1DB954;
+}
+
+.btnentrar {
+    margin-top: 30px;
+    width: 100%;
+    font-weight: bold;
+
+    background-color: #1DB954;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+
+}
+
+.opcoes {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btng,
+.btnf,
+.btnap,
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
